@@ -27,6 +27,11 @@ build:
     - "controlnet_aux"
     - "matplotlib"
     - "ffmpeg-python >= 0.2.0"
+    - "black >= 22.3.0"
+    - "ruff >= 0.0.234"
+    - "setuptools-scm >= 7.0.0"
+    - "pre-commit >= 3.3.0"
+    - "ipython"
 
   run:
   - pip install xformers
